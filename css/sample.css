@@ -1,0 +1,26 @@
+p 
+{
+	color:blue;
+	font-kerning:normal;
+}
+
+h3
+{
+	color:red;
+	text-rendering: optimizeLegibility;
+  	font-feature-settings: "kern" 1;
+  	font-kerning: normal;
+  	-webkit-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern";
+    -moz-font-feature-settings: "kern=1";
+}
+
+h4{
+	color:green;
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "kern" 1;
+	font-kerning:normal;
+	font-size: 75pt;
+	font-weight: 124px;
+}
+
