@@ -1,0 +1,110 @@
+// Merriweather fonts
+@font-face {
+  font-family: 'MerriweatherRegular';
+  src: url('fonts/Merriweather-Regular.otf');
+}
+
+@font-face {
+  font-family: 'MerriweatherBold';
+  src: url('fonts/Merriweather-Bold.ttf')  format('truetype'); 
+}
+
+@font-face {
+  font-family: 'MerriweatherLight';
+  src: url('fonts/Merriweather-Light.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'MerriweatherItalic';
+  src: url('fonts/Merriweather-Italic.ttf')  format('truetype');
+}
+ 
+@font-face {
+  font-family: 'MerriweatherLightItalic';
+  src: url('fonts/Merriweather-LightItalic.otf');
+}
+
+// Roboto fonts
+@font-face {
+  font-family: 'Roboto'; 
+  src: url('fonts/Roboto-Light.ttf')  format('truetype'); 
+} 
+
+@font-face {
+  font-family: 'Roboto Light'; 
+  src: url('fonts/Roboto-Light.ttf')  format('truetype'); 
+} 
+
+@font-face {
+  font-family: 'Roboto Thin'; 
+  src: url('fonts/Roboto-Thin.ttf')  format('truetype'); 
+} 
+
+@font-face {
+  font-family: 'Roboto Regular'; 
+  src: url('fonts/Roboto-Regular.ttf')  format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Roboto Medium'; 
+  src: url('fonts/Roboto-Medium.ttf')  format('truetype'); 
+}
+
+@font-face {
+  font-family: 'Roboto Bold'; 
+  src: url('fonts/Roboto-Bold.ttf')  format('truetype'); 
+}
+
+@font-face {
+	font-family: VerseIcons;
+	src: url('fonts/verse-icon-font.otf');
+}
+
+.title {  
+        z-index: 100;     
+        font-family: 'MerriweatherRegular';
+        letter-spacing: 0.010em;
+        font-size: 50px;  
+        font-weight: normal;
+        line-height: @size-poster-line-height;
+        text-align: center;
+        color: red;
+
+        
+        /* letter spacing */
+        -webkit-font-feature-settings: "kern";
+        text-rendering: optimizeLegibility;
+        font-kerning: normal;
+        
+    }
+.by-line { 
+        z-index: 100;   
+      color : green;
+        opacity: 0.7;
+      font-family : 'Roboto Light', Fallback, sans-serif; 
+        letter-spacing: 0.044em;
+      font-size : 25px;
+        font-weight: normal;
+        line-height: 84px; 
+        padding: 0px 0px 0px 0px; 
+
+        /* letter spacing */
+        -webkit-font-feature-settings: "kern";
+        text-rendering: optimizeLegibility;
+        font-kerning: normal;
+    }  
+    .span {
+       z-index: 100;   
+      color : green;
+        opacity: 0.7;
+      font-family : 'Roboto Light', Fallback, sans-serif; 
+        letter-spacing: 0.044em;
+      font-size : 25px;
+        font-weight: normal;
+        line-height: 84px; 
+        padding: 0px 0px 0px 0px; 
+
+    }
+
+
+ 
