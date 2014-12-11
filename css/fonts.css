@@ -69,11 +69,7 @@
   line-height: 72px;
   text-align: center;
   color: red;
-  /* letter spacing */
-  -webkit-font-feature-settings: "kern";
-  text-rendering: optimizeLegibility;
-  font-feature-settings: "kern" 1;
-  font-kerning: normal;
+  
 }
 .by-line {
   z-index: 100;
