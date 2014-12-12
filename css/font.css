@@ -1,92 +1,23 @@
-// Merriweather fonts
 @font-face {
   font-family: 'MerriweatherRegular';
-  src: url('fonts/Merriweather-Regular.otf');
-}
-
-@font-face {
-  font-family: 'MerriweatherBold';
-  src: url('fonts/Merriweather-Bold.ttf')  format('truetype'); 
-}
-
-@font-face {
-  font-family: 'MerriweatherLight';
-  src: url('fonts/Merriweather-Light.ttf')  format('truetype');
-}
-
-@font-face {
-  font-family: 'MerriweatherItalic';
-  src: url('fonts/Merriweather-Italic.ttf')  format('truetype');
+  src: url('../fonts/Merriweather-Regular.ttf');
 }
  
-@font-face {
-  font-family: 'MerriweatherLightItalic';
-  src: url('fonts/Merriweather-LightItalic.otf');
-}
-
-// Roboto fonts
-@font-face {
-  font-family: 'Roboto'; 
-  src: url('fonts/Roboto-Light.ttf')  format('truetype'); 
-} 
-
-@font-face {
-  font-family: 'Roboto Light'; 
-  src: url('fonts/Roboto-Light.ttf')  format('truetype'); 
-} 
-
-@font-face {
-  font-family: 'Roboto Thin'; 
-  src: url('fonts/Roboto-Thin.ttf')  format('truetype'); 
-} 
-
-@font-face {
-  font-family: 'Roboto Regular'; 
-  src: url('fonts/Roboto-Regular.ttf')  format('truetype'); 
-}
-
-@font-face {
-  font-family: 'Roboto Medium'; 
-  src: url('fonts/Roboto-Medium.ttf')  format('truetype'); 
-}
-
-@font-face {
-  font-family: 'Roboto Bold'; 
-  src: url('fonts/Roboto-Bold.ttf')  format('truetype'); 
-}
-
-@font-face {
-	font-family: VerseIcons;
-	src: url('fonts/verse-icon-font.otf');
-}
-
-.title {
-  z-index: 100;
-  font-family: 'MerriweatherBold';
+.title { 
+  font-family: 'MerriweatherRegular';
   letter-spacing: 0.010em;
   font-size: 60px;
   font-weight: normal;
   line-height: 72px;
   text-align: center;
-  color: red;
- 
-}
-.by-line {
-  z-index: 100;
-  color: #ffffff;
-  opacity: 0.7;
-  font-family: 'Roboto Light', Fallback, sans-serif;
-  letter-spacing: 0.044em;
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 84px;
-  padding: 0px 0px 0px 0px;
+  color: #fff;
+
   /* letter spacing */
-  -webkit-font-feature-settings: "kern";
+  /*-webkit-font-feature-settings: "kern";
   text-rendering: optimizeLegibility;
   font-feature-settings: "kern" 1;
-  font-kerning: normal;
-}
-
+  font-kerning: normal;*/
+ 
+} 
  
 
